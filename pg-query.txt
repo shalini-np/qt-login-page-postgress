@@ -1,0 +1,7 @@
+INSERT INTO "qt-login"."login-table"(
+	s_no, username, password)
+	VALUES (1,'shal','cut');
+	
+
+
+SELECT * FROM "qt-login"."login-table" WHERE username = 'shl' AND password = 'cut'
